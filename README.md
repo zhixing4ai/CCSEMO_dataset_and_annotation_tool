@@ -191,10 +191,6 @@ The paper presents the CCSEMO dataset, a standardized annotation framework for C
 
 ## Interface Preview
 
-### 5-Point Valence-Arousal Annotation
-
-![5-point valence-arousal annotation interface](images/annotation-va-5point-interface.png)
-
 ### 9-Point Valence-Arousal Annotation
 
 ![9-point valence-arousal annotation interface](images/annotation-va-9point-interface.png)
