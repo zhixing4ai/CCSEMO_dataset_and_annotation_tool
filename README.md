@@ -44,23 +44,12 @@ The system includes testing, consistency evaluation, volume testing, and adminis
 
 The system provides tools for annotation management, standard answer management, group assignment, data analysis, export, and progress tracking.
 
-## Interface Preview
+## Related Experimental Repositories
 
-### 5-Point Valence-Arousal Annotation
+We provide two baseline code archives for the emotion recognition experiments reported with CCSEMO:
 
-![5-point valence-arousal annotation interface](images/annotation-va-5point-interface.png)
-
-### 9-Point Valence-Arousal Annotation
-
-![9-point valence-arousal annotation interface](images/annotation-va-9point-interface.png)
-
-### 9-Point Annotation with Standard Labels
-
-![9-point annotation interface with standard labels](images/annotation-va-9point-standard-labels.png)
-
-### Discrete Emotion Annotation with Standard Labels
-
-![discrete emotion annotation interface with standard labels](images/annotation-discrete-standard-labels.png)
+- **Continuous Emotion Recognition**: `CCSEMO_exp.zip` - baseline experiments for continuous emotion recognition, including Valence-Arousal prediction with pretrained speech models and pitch feature fusion.
+- **Discrete Emotion Recognition**: `CCSEMO_baseline.zip` - baseline experiments for discrete emotion classification, including 4-class and 7-class speech emotion recognition.
 
 ## Use Cases
 
@@ -199,3 +188,21 @@ This repository accompanies the work described in the following paper:
 **CCSEMO: A Chinese Counseling Speech Emotion Dataset annotated via a unified standardized annotation framework**
 
 The paper presents the CCSEMO dataset, a standardized annotation framework for Chinese counseling speech emotion data, and the balanced CCSEMO-mini subset. This web system is part of the supporting work for that study, providing practical tooling for speech segment annotation, annotator testing, consistency evaluation, data management, and quality control.
+
+## Interface Preview
+
+### 5-Point Valence-Arousal Annotation
+
+![5-point valence-arousal annotation interface](images/annotation-va-5point-interface.png)
+
+### 9-Point Valence-Arousal Annotation
+
+![9-point valence-arousal annotation interface](images/annotation-va-9point-interface.png)
+
+### 9-Point Annotation with Standard Labels
+
+![9-point annotation interface with standard labels](images/annotation-va-9point-standard-labels.png)
+
+### Discrete Emotion Annotation with Standard Labels
+
+![discrete emotion annotation interface with standard labels](images/annotation-discrete-standard-labels.png)
