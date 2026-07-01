@@ -48,8 +48,8 @@ The system provides tools for annotation management, standard answer management,
 
 We provide two baseline code archives for the emotion recognition experiments reported with CCSEMO:
 
-- **Continuous Emotion Recognition**: `CCSEMO_exp.zip` - baseline experiments for continuous emotion recognition, including Valence-Arousal prediction with pretrained speech models and pitch feature fusion.
-- **Discrete Emotion Recognition**: `CCSEMO_baseline.zip` - baseline experiments for discrete emotion classification, including 4-class and 7-class speech emotion recognition.
+- **Continuous Emotion Recognition**: `CCSEMO_Continuous_Emotion_Recognition_Baseline.zip` - baseline experiments for continuous emotion recognition, including Valence-Arousal prediction with pretrained speech models and pitch feature fusion.
+- **Discrete Emotion Recognition**: `CCSEMO_Discrete_Emotion_Recognition_Baseline.zip` - baseline experiments for discrete emotion classification, including 4-class and 7-class speech emotion recognition.
 
 ## Use Cases
 
@@ -191,12 +191,12 @@ The paper presents the CCSEMO dataset, a standardized annotation framework for C
 
 ## Interface Preview
 
+The annotation system provides two task-specific interfaces. The discrete emotion page supports categorical emotion labeling for each speech segment, while the continuous emotion page supports valence-arousal annotation with slider-based controls.
 
-### 5-Point Valence-Arousal Annotation
+### Discrete Emotion Annotation Interface
 
-![5-point valence-arousal annotation interface](images/annotation-va-5point-interface.png)
+![Discrete emotion annotation interface](images/discrete-emotion-annotation-interface.png)
 
-### Discrete Emotion Annotation with Standard Labels
+### Continuous Emotion Annotation Interface
 
-![discrete emotion annotation interface with standard labels](images/annotation-discrete-standard-labels.png)
-
+![Continuous emotion annotation interface](images/continuous-emotion-annotation-interface.png)
