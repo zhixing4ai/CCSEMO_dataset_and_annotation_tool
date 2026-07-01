@@ -71,6 +71,9 @@ dist/
 *.egg-info/
 pip-wheel-metadata/
 
+# Ignore scripts directory
+/scripts/
+
 # Files bundled into CCSEMO_Experimental_Annotation.zip
 /.python-version
 /app.py
@@ -100,18 +103,6 @@ pip-wheel-metadata/
 /routes/standard_answers_routes.py
 /routes/test_routes.py
 /run_local.sh
-/scripts/add_scale_order_field.py
-/scripts/add_va_scale_field.py
-/scripts/apply_performance_optimizations.py
-/scripts/check_and_create_table.py
-/scripts/create_9point_table.py
-/scripts/import_data.py
-/scripts/import_second_consistency_answers.py
-/scripts/init_and_import.py
-/scripts/performance_monitor.py
-/scripts/security_check.py
-/scripts/unified_db_manager.py
-/scripts/update_annotated_count.py
 /services/__init__.py
 /services/admin_service.py
 /services/audio_service.py
